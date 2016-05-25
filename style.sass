@@ -1,0 +1,389 @@
+$primary-color: #816d15
+$secondary-color: #fff
+$gray: #63656E
+$shadow: rgba(0, 0, 0, 0.4)
+$roboto: 'robotothin', sans-serif
+$distantstroke: 'distant_strokeregular', cursive
+$champagne: 'champagne__limousinesitalic', monospace
+
+
+.row
+    margin: 10px 0
+a
+    &:hover
+        text-decoration: none
+.navbar-default
+    background: transparent
+    border: none
+.navbar-nav
+    font-family: $roboto
+.caret
+    color: $primary-color
+.brand-title
+    font:
+        size: 70px
+        family: $distantstroke
+.logo-title
+    display: flex
+    flex-direction: row
+    justify-content: center
+    img
+        margin-top: 10px
+        margin-right: 5px
+.header-home
+    overflow: hidden
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: space-around
+    width: 100%
+    height: 82vh
+    font-family: $roboto
+.landingpage-title
+    overflow: hidden
+    display: flex
+    flex-direction: column
+    align-items: center
+.landing-title
+    overflow: hidden
+    font-family: $distantstroke
+    font-size: 100px
+    margin-left: 12px
+    position: relative
+.dev
+    color: $primary-color
+    font-weight: 200
+.intro-text
+    text-align: center
+    display: flex
+    flex-direction: column
+    align-items: center
+    h1
+        font-size: 40px
+.gold-text
+    color: $primary-color
+.faint-text
+    color: #cececd
+    font-size: 18px
+.title
+    text-align: left
+    margin-left: 15px
+    h1
+        font:
+            family: $roboto
+            size: 2rem
+.container
+    margin-bottom: 5%
+.card
+    width: auto
+    height: auto
+    box-shadow: 2px 2px 5px #555555
+    .t
+        font:
+            family: $roboto
+        text-align: center
+        padding: 10px
+    img
+        width: 100%
+        height: auto
+    &:hover
+        transition: all 0.2s ease-in-out
+        box-shadow: 5px 5px 20px #555
+//CONTACT FORM STYLES
+.email
+    text-align: center
+    h2
+        font:
+            family: $roboto
+            size: 30px
+    p
+        margin-top: 10px
+        color: $primary-color
+        font:
+            family: $roboto
+            size: 22px
+        &:hover
+            transition: all 0.3s ease-in-out
+            cursor: pointer
+.divider
+    height: 1px
+    margin-left: 40%
+    margin-right: 40%
+    background-color: black
+//PACKAGES STYLES
+.container-fluid
+    h1
+        text-align: center
+        margin-top: 20px
+        margin-bottom: 20px
+        font:
+            family: $roboto
+            size: 50px
+.intro-title
+    height: 50vh
+    width: 100%
+    display: flex
+    align-items: center
+    h1
+        margin-left: 3%
+        font:
+            family: $roboto
+            size: 40px
+.center
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    h1
+        margin: 0 0 10px 0
+        font-size: 5rem
+.package-list
+    max-width: 1400px
+
+.packages
+    border: solid
+    border-color: white
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    background-color: black
+    color: white
+    h2
+        font:
+            family: $distantstroke
+            size: 70px
+        color: $primary-color !important
+        text-align: center
+        margin: 0
+        padding: 0
+    li
+        font:
+            family: $roboto
+            size: 18px
+        line-height: 1.8
+        text-decoration: none
+        list-style: none
+        text-align: center
+    ul
+        list-style: none
+        padding: 0
+        margin-top: 20px
+.extra-offers
+    max-width: 1200px
+    margin-top: 3%
+    h2
+        text-align: center
+        margin-top: 20px
+        margin-bottom: 20px
+        font:
+            family: $roboto
+            size: 50px
+    h3
+        text-align: center
+        font:
+            family: $roboto
+            size: 25px
+.extra
+    padding: 15px
+    background-color: black
+    color: white
+    border: solid
+    border-color: white
+.behance
+    display: flex
+    flex-direction: row
+    justify-content: center
+    margin: 15px
+    button
+        width: 200px
+        height: 50px
+        border: none
+        color: white
+        background-color: #0275F9
+        font-size: 20px
+        box-shadow: 2px 2px 5px #555555
+        &:hover
+            transition: all 0.2s ease-in-out
+            box-shadow: 5px 5px 20px #555
+//FOOTER STYLES
+#contact
+    height: 50vh
+    padding-top: 20px
+    position: relative
+    a
+        color: black
+        &:hover
+            text-decoration: none
+    li
+        text-decoration: none
+    ul
+        list-style: none
+        padding: 0
+        margin: 0
+.contact
+    margin-top: 20px
+.contact-info
+    text-align: left
+.social-media
+    text-align: left
+    color: black !important
+    font:
+        family: $champagne
+        size: 18px
+    line-height: 2
+.social-media-item
+    a, span
+        color: $primary-color
+    &:hover
+        transition: all 0.2s ease-in-out
+        color: $primary-color
+        margin-left: 10px
+.contact-title
+    font:
+        family: $roboto
+        size: 25px
+    color: $primary-color
+    pointer-events: none
+.email
+    font:
+        family: $champagne
+        size: 18px
+.email-link
+    text-align: center
+    margin-bottom: 50px
+.email-button-wrapper
+    width: 100%
+    height: 20px
+.about-text
+    width: 200%
+    background-color: rgba(0, 0, 0, 0.7)
+    color: #fff
+    text-align: left
+    padding: 10px
+    font:
+        size: 2rem
+        family: $roboto
+        weight: 600
+    p
+        padding: 10px 0
+.accent-photo
+    font: 0/0 a
+    color: transparent
+    height: 50vh
+    background:
+        image: url('../images/accent-img.jpg')
+        size: cover
+        position: center
+.extend
+    z-index: 2
+.align
+    display: flex
+    align-items: center
+.work-btn
+    background-color: #fff
+    color: #000
+.thumb
+    transition: all 0.2s ease
+    img
+        width: 100%
+    h3
+        margin: 0
+        background-color: rgba(0,0,0,0.7)
+        padding: 10px 5px
+        color: #fff
+        text-align: center
+        font:
+            size: 1.5rem
+            family: $roboto
+.padding
+    margin: 50px 0px
+.offset
+    background-color: #FBFAFA
+.section
+    width: 100%
+    text-align: center
+    display: flex
+    flex-direction: column
+    align-items: center
+    .title
+        font:
+            family: $roboto
+        h2
+            font-size: 4.5rem
+        text-align: center
+        display: flex
+        flex-direction: column
+        align-items: center
+    .intro-text
+        margin: 60px 0
+        max-width: 800px
+        p
+            font:
+                family: $roboto
+                size: 2.5rem
+.cta, .landing-cta
+    color: #fff
+    background-color: $primary-color
+    border-radius: 5px
+    width: 200px
+    height: 38px
+    text-align: center
+    font-family: $roboto
+    box-shadow: 0 0 5px $shadow
+    transition: all 0.2s ease
+    margin-bottom: 130px
+    display: flex
+    justify-content: center
+    align-items: center
+    a
+        color: inherit
+        width: 100%
+        h3
+            margin: 0
+            padding: 5px 10px
+            font-size: 1.8rem
+    &:hover
+        box-shadow: 0 0 15px $shadow
+.landing-cta
+    margin-bottom: 0
+    background-color: #fff
+    border: solid
+    border-width: thin
+    border-color: rgba(0, 0, 0, 0.7)
+    color: #000
+    box-shadow: none
+    &:hover
+        box-shadow: 0 0 5px $shadow
+.design-images
+    img
+        width: 300px
+.big, p
+    font-size: 3rem !important
+.list
+    margin: 20px 0
+    .item
+        display: flex
+        flex-direction: row
+        align-items: center
+        justify-content: left
+        margin: 10px 0
+        img
+            margin-right: 10px
+        h2
+            margin: 0
+            font:
+                family: $roboto
+                size: 2.5rem
+.marketing-banner
+    background-image: url('../images/marketing.png')
+    background-size: cover
+    height: 400px
+    background-position: center
+    span
+        font: 0/0 a
+        color: transparent
+.home-cta
+    transition: all 0.2s ease
+    span
+        color: $primary-color

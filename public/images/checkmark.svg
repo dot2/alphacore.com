@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="18px" height="14px" viewBox="0 0 18 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.1 (29687) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_done_black_48px</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Design-page" transform="translate(-581.000000, -999.000000)">
+            <g id="Design">
+                <rect id="Rectangle-16" fill="#FFFFFF" x="0" y="835" width="1440" height="500"></rect>
+                <g id="Tasks" transform="translate(578.000000, 989.000000)"></g>
+                <g id="Group" transform="translate(161.000000, 845.000000)"></g>
+            </g>
+            <g id="ic_done_black_48px" transform="translate(578.000000, 994.000000)">
+                <g id="Group">
+                    <polygon id="Shape" points="0 0 24 0 24 24 0 24"></polygon>
+                    <polygon id="Shape" fill="#816C13" points="9 16.2 4.8 12 3.4 13.4 9 19 21 7 19.6 5.6"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
