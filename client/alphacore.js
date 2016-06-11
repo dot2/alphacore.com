@@ -37,3 +37,21 @@ Template.Marketing.onCreated(function() {
         }
     });
 });
+
+Template.Work.onCreated(function() {
+    SEO.set({
+        title: 'Work - AlphaCore A Digital Creative Agency in Stillwater, Oklahoma.',
+        description: 'Take a look at all of our design, development, and marketing experience. ',
+        meta: {
+            'property="og:image"': 'http://www.alphacoredesign.com/images/wolf.jpg'
+        }
+    });
+});
+
+Template.Work.rendered = function() {
+    $('.work-link').hover(function() {
+        $(this).find('.work-info').css("background-color", $(this).data('color'));
+        //find a color > apply to background
+        //off > revert the color
+    });
+};

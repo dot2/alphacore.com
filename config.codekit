@@ -42,6 +42,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/client\/layouts\/blog.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/client\/layouts\/blog.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/client\/layouts\/contact-form.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -123,6 +132,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/client\/layouts\/work.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/client\/layouts\/work.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/client\/partials\/blogAdmin.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/client\/partials\/blogAdmin.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/client\/partials\/Footer.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -149,6 +176,17 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/collections\/blogCollection.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/collections\/blogCollection.js",
+		"outputAbbreviatedPath": "\/collections\/min\/blogCollection-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
 		},
 	"\/index.html": {
 		"fileType": 8192,
@@ -190,13 +228,35 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/public\/images\/accent-img.jpg": {
-		"fileType": 16384,
+	"\/public\/images\/design\/Day_002.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 7.15733e+06,
-		"inputAbbreviatedPath": "\/public\/images\/accent-img.jpg",
-		"outputAbbreviatedPath": "\/public\/images\/accent-img.jpg",
+		"initialSize": 371138,
+		"inputAbbreviatedPath": "\/public\/images\/design\/Day_002.png",
+		"outputAbbreviatedPath": "\/public\/images\/design\/Day_002.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/design\/Day_003.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 390894,
+		"inputAbbreviatedPath": "\/public\/images\/design\/Day_003.png",
+		"outputAbbreviatedPath": "\/public\/images\/design\/Day_003.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/design\/Day_009.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 430326,
+		"inputAbbreviatedPath": "\/public\/images\/design\/Day_009.png",
+		"outputAbbreviatedPath": "\/public\/images\/design\/Day_009.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -205,20 +265,9 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 5.26399e+06,
+		"initialSize": 1.76339e+06,
 		"inputAbbreviatedPath": "\/public\/images\/design\/Day_014.png",
 		"outputAbbreviatedPath": "\/public\/images\/design\/Day_014.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/public\/images\/design\/Day_015.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 22434,
-		"inputAbbreviatedPath": "\/public\/images\/design\/Day_015.png",
-		"outputAbbreviatedPath": "\/public\/images\/design\/Day_015.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -227,20 +276,9 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2.1504e+06,
+		"initialSize": 520507,
 		"inputAbbreviatedPath": "\/public\/images\/design\/Day_016.png",
 		"outputAbbreviatedPath": "\/public\/images\/design\/Day_016.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/public\/images\/design\/Day_017.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 356792,
-		"inputAbbreviatedPath": "\/public\/images\/design\/Day_017.png",
-		"outputAbbreviatedPath": "\/public\/images\/design\/Day_017.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -249,31 +287,9 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 5.22072e+06,
+		"initialSize": 1.60405e+06,
 		"inputAbbreviatedPath": "\/public\/images\/design\/Day_018.png",
 		"outputAbbreviatedPath": "\/public\/images\/design\/Day_018.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/public\/images\/design\/Day_019.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.00716e+06,
-		"inputAbbreviatedPath": "\/public\/images\/design\/Day_019.png",
-		"outputAbbreviatedPath": "\/public\/images\/design\/Day_019.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/public\/images\/design\/Day_020.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2.22409e+06,
-		"inputAbbreviatedPath": "\/public\/images\/design\/Day_020.png",
-		"outputAbbreviatedPath": "\/public\/images\/design\/Day_020.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -311,17 +327,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/public\/images\/tx-pool-spa.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 275042,
-		"inputAbbreviatedPath": "\/public\/images\/tx-pool-spa.png",
-		"outputAbbreviatedPath": "\/public\/images\/tx-pool-spa.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/public\/images\/wolf.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -332,6 +337,83 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/public\/images\/work\/dreamboat.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 655625,
+		"inputAbbreviatedPath": "\/public\/images\/work\/dreamboat.png",
+		"outputAbbreviatedPath": "\/public\/images\/work\/dreamboat.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/work\/galleria.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.42819e+06,
+		"inputAbbreviatedPath": "\/public\/images\/work\/galleria.png",
+		"outputAbbreviatedPath": "\/public\/images\/work\/galleria.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/work\/goingremote.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 831034,
+		"inputAbbreviatedPath": "\/public\/images\/work\/goingremote.png",
+		"outputAbbreviatedPath": "\/public\/images\/work\/goingremote.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/work\/profile.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 67050,
+		"inputAbbreviatedPath": "\/public\/images\/work\/profile.png",
+		"outputAbbreviatedPath": "\/public\/images\/work\/profile.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/work\/rawcomplextion.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.59524e+06,
+		"inputAbbreviatedPath": "\/public\/images\/work\/rawcomplextion.png",
+		"outputAbbreviatedPath": "\/public\/images\/work\/rawcomplextion.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/work\/txpoolspa.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.95104e+06,
+		"inputAbbreviatedPath": "\/public\/images\/work\/txpoolspa.png",
+		"outputAbbreviatedPath": "\/public\/images\/work\/txpoolspa.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/server\/blog.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/server\/blog.js",
+		"outputAbbreviatedPath": "\/server\/min\/blog-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
 		},
 	"\/server\/init.js": {
 		"fileType": 64,

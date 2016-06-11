@@ -387,3 +387,131 @@ a
     transition: all 0.2s ease
     span
         color: $primary-color
+.blog-wrapper
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+.blog
+    max-width: 800px
+    padding: 15px
+.blog-item
+    background-color: #fff
+    padding: 20px
+    margin: 25px 0
+    transition: all 0.3s ease
+    &:hover
+        box-shadow: 0px 0px 10px $shadow
+    .blog-title
+        h2
+            margin: 15px 0 0 0
+            padding: 0
+            font-size: 2.5rem
+        p
+            font:
+                size: 1.8rem !important
+                family: $roboto
+            margin: 0
+            padding: 0 0 15px 0
+            color: rgb(198, 198, 198)
+    .tags
+        display: flex
+        flex-direction: row
+        align-items: center
+        img
+            width: 15px
+        p
+            color: rgb(198, 198, 198)
+            padding: 0px
+            margin: 0 0 0 5px
+            font-size: 1.5rem !important
+    .cover-photo
+        background:
+            image: url('../images/accent-img.jpg')
+            position: center
+            size: cover
+        width: 100%
+        height: 25vh
+        span
+            font: 0/0 a
+            color: transparent
+        img
+            width: 100%
+            height: 30vh
+    .excerpt p
+        font-size: 1.8rem !important
+        margin: 15px 0
+        font-family: $roboto
+    .read-more p
+        font-size: 1.8rem !important
+        margin: 40px 0
+        font-family: $roboto
+        color: rgb(187, 187, 187)
+    .like
+        display: flex
+        flex-direction: row
+        align-items: center
+        p
+            font-size: 1.2rem !important
+            margin: 0 0 0 5px
+            padding: 0
+            color: rgb(187, 187, 187)
+        img
+            width: 15px
+.work-item
+    position: relative
+    height: 250px
+    overflow: hidden
+    a
+        color: inherit
+    .work-info
+        margin-top: 10px
+        position: absolute
+        padding: 10px
+        background-color: transparent
+        width: 100%
+        height: 100%
+        opacity: 0
+        transition: all 0.3s ease
+        h2
+            font-size: 2.5rem
+            font-weight: bold
+        h3
+            color: #4C4C4C
+            font-size: 1.8rem
+            margin-top: 5px !important
+        h2, h3
+            margin: 0
+            padding: 0
+            font-family: $roboto
+            color: #fff
+        .fav-icon
+            position: absolute
+            display: none
+            bottom: 10px
+        .category-icon
+            position: absolute
+            bottom: 10px
+            right: 10px
+            opacity: 0.8
+        &:hover
+            opacity: 0.9
+            margin-top: 0
+@media screen and (max-width: 800px)
+    .row
+        margin: -20px 0 -20px 0
+        padding: 0
+    .work-item
+        height: 100% !important
+        margin: 20px 0 20px 0 !important
+        box-shadow: 0 0 5px $shadow
+    .work-info
+        opacity: 1 !important
+        background-color: rgb(255, 255, 255) !important
+        margin-top: 0px !important
+        height: 42% !important
+        bottom: 0
+        .fav-icon
+            display: none
+        h2, h3
+            color: #000 !important
