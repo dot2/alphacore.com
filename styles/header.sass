@@ -1,0 +1,73 @@
+@import "var"
+
+.header-wrapper
+  height: 10vh
+  max-height: 80px
+  box-shadow: 0 0 5px $shadow
+  display: flex
+  flex-direction: row
+  align-items: center
+  position: relative
+  background-color: #fff
+
+
+  #mobile-nav
+    z-index: 2
+    position: absolute
+    top: 70px
+    width: 80%
+    height: 100vh
+    left: 0
+    background-color: #fff
+    display: flex
+    flex-direction: column
+    align-items: center
+    box-shadow: 0 4px 5px $shadow
+    transition: all 0.3s ease
+    opacity: 0
+    transform: translate(-100%, 0)
+    a
+        width: 100%
+        display: flex
+        flex-direction: column
+        align-items: center
+    .nav-item
+      text-align: center
+      width: 40%
+      border-bottom: solid
+      border-width: thin
+      border-color: rgba($light-black, 0.1)
+      padding: 1em .5em
+      font:
+        family: $font-main
+        size: 1.2rem
+
+
+  .logo
+    display: flex
+    flex-direction: row
+    align-items: center
+    padding-left: 1.56em
+
+    img
+      width: 50px
+      margin-right: .9em
+    h1
+      font:
+        family: $font-main
+        size: 2rem
+    strong
+      font-weight: 300
+      font-family: $font-sec
+
+  .nav
+    position: absolute
+    right: 1.56em
+    ul
+      list-style: none
+      display: flex
+      flex-direction: row
+    li
+      list-style: none
+      text-decoration: none
+      padding: 0 1.56em

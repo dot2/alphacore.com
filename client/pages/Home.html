@@ -1,0 +1,76 @@
+<template name="home">
+
+  <div class="video-wrapper">
+
+    <div class="bkg-video">
+      <h2 class="header-title">We Make The Complex Simple.</h2>
+      <div class="btn-wrapper">
+        <a href="mailto:dylan@alphacoredesign">
+            <div class="btn">
+              work with us
+            </div>
+        </a>
+      </div>
+    </div>
+
+    <video autoplay="true" loop>
+      <source src="../video/Busy-People.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <div class="wrapper">
+    <div class="about-services">
+      <div class="dev service-item">
+        <img src="../images/icons/dev-icon.svg" alt="development">
+        <h2>Development</h2>
+        <p>
+          We build web apps, mobile apps, e-commerce
+          sites, and more. We use the latest technologies
+          to craft the perfect product to meet your needs.
+        </p>
+      </div>
+      <div class="marketing service-item">
+        <img src="../images/icons/marketing-icon.svg" alt="marketing">
+        <h2>Marketing</h2>
+        <p>
+          We help identify your target market and craft a marketing
+          campaign just for you. We monitor data and performance
+          for the entire campaign.
+        </p>
+      </div>
+      <div class="design service-item">
+        <img src="../images/icons/design-icon.svg" alt="design">
+        <h2>Design</h2>
+        <p>
+            We listen to what you have to say and turn your idea into
+            something visual. We go over all the details and get your
+            input every step of the way.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  {{> projectHome}}
+
+  <div class="tuts-wrapper">
+      <h2>Sign up to our mailing list!</h2>
+      <div class="sign-up-wrapper">
+          <!-- Begin MailChimp Signup Form -->
+            <div id="mc_embed_signup">
+            <form action="//dylandotolo.us10.list-manage.com/subscribe/post?u=69d72c1aadfec25415de77529&amp;id=820b6f1acb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll">
+            	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_69d72c1aadfec25415de77529_820b6f1acb" tabindex="-1" value=""></div>
+                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                </div>
+            </form>
+            </div>
+        <!--End mc_embed_signup-->
+        <h3>Get updates on our tutorials, freebie downloads, and more!</h3>
+      </div>
+  </div>
+
+  {{> footer}}
+
+</template>

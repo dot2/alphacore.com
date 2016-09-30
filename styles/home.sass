@@ -1,0 +1,178 @@
+@import "var"
+
+.video-wrapper
+  height: 55vh
+  max-height: 500px
+  position: relative
+  background: transparentize(#000, 0.8)
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  h2
+    color: #fff
+    font:
+      family: $font-main
+      size: 2.5rem
+
+  .bkg-video
+      background-attachment: fixed
+
+  .btn-wrapper
+    display: flex
+    align-items: center
+    justify-content: center
+    margin-top: 2.5em
+
+  .btn
+    background-color: $accent
+    border-radius: 2px
+    display: flex
+    align-items: center
+    justify-content: center
+    padding: .5em 1.8em
+    transition: all 0.3s ease
+    font:
+      family: $font-sec
+      size: 1.125rem
+      weight: bold
+    &:hover
+      transform: translate(0, -5%)
+      background-color: transparentize($accent, 0.1)
+
+
+  video
+    position: fixed
+    top: -20%
+    z-index: -1
+
+.about-services
+  background-color: #fff
+  padding: 5em 0
+  display: flex
+  flex-direction: row
+  align-items: center
+  justify-content: center
+
+  .service-item
+    width: 30%
+    display: flex
+    flex-direction: column
+    align-items: center
+
+    img
+      width: 100px
+
+    h2
+      margin-top: 1.5em
+
+    p
+      font:
+        family: $font-sec
+        size: 1rem
+      color: $light-black
+      text-align: center
+      padding: 0 2em
+      margin-top: 1.2em
+
+.project-home
+  background-color: #fff
+  background: linear-gradient(145deg, #fff, $accent 80%, $accent)
+  height: 600px
+  position: relative
+  background-image: url('../images/wood-bkg.jpg')
+  background-size: cover
+  background-attachment: fixed
+  overflow: hidden
+
+  .projects
+    display: flex
+    flex-direction: row
+    align-items: center
+    justify-content: center
+    flex-wrap: wrap
+    height: 600px
+
+  .project-card
+    height: 400px
+    width: 30%
+    max-width: 550px
+    background-color: #fff
+    box-shadow: 0 0 5px $shadow
+    margin: 0em 1em
+    position: relative
+    opacity: 0
+    transform: translateY(20px)
+    transition: all 0.3s ease-in-out
+    &:hover
+        box-shadow: 0px 17px 15px -8px $shadow
+
+
+    .project-img
+      font: 0/0 a
+      color: transparent
+      height: 290px
+      background:
+        size: cover
+        position: top
+
+    .view-btn
+        position: absolute
+        bottom: .625em
+        right: .625em
+        color: $blue
+        font:
+            size: 1.2rem
+            family: $font-sec
+            weight: 300
+
+    h2
+      font:
+        family: $font-main
+        size: 1.25rem
+      color: $light-black
+      margin-top: 15px
+      margin-left: 10px
+
+    &.is-showing
+        opacity: 1
+        transform: translateY(0px)
+    &:hover
+        transform: translate(0, -2%)
+
+.tuts-wrapper
+  height: 250px
+  background-color: $light-black
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  h2
+      margin-bottom: .5em
+      text-align: center
+      color: #fff
+      font:
+          family: $font-main
+          size: 2rem
+  h3
+      margin-top: .5em
+      text-align: center
+      color: #fff
+      font:
+          family: $font-sec
+          size: 1.2rem
+
+#mc_embed_signup .button
+   background-color: $dark-green !important
+   box-shadow: 0 0 5px $shadow
+   transition: all 0.3s ease
+   &:hover
+       box-shadow: 0px 12px 15px -8px $shadow-dark
+       transform: translate(0, -2%)
+
+#mc_embed_signup input.email
+  border-radius: 30px !important
+  border-color: $light-black !important
+  padding: 0 .8em !important
+#mc_embed_signup input.email:focus
+    outline-width: 0

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="99px" height="24px" viewBox="0 0 99 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40 (33762) - http://www.bohemiancoding.com/sketch -->
+    <title>Popular</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="New-Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Popular">
+            <rect id="Rectangle-125" fill="#EC606D" x="0" y="0" width="99" height="24" rx="12"></rect>
+            <text id="Development" font-family="OpenSans, Open Sans" font-size="10" font-weight="normal" letter-spacing="1" fill="#FFFFFF">
+                <tspan x="13.2011719" y="16">Developmen</tspan>
+                <tspan x="82.2685547" y="16">t</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

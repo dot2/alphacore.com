@@ -1,0 +1,81 @@
+@import "var"
+
+html, body
+  font-size: 16px
+  padding: 0
+  margin: 0
+  overflow-x: hidden
+
+body
+    max-width: 1920px
+
+h1, h2, h3, h4
+  padding: 0
+  margin: 0
+
+a
+    text-decoration: none
+    color: inherit
+    &:hover
+        text-decoration: none !important
+        color: inherit
+
+.footer
+  height: 280px
+  background-color: $dark-black
+
+.top-btn-wrapper
+    z-index: 2
+    width: 100%
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+
+
+.top-btn
+    background-color: $dark-green
+    margin-top: -2em
+    z-index: 2
+    width: 60px
+    height: 60px
+    border-radius: 50%
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    box-shadow: 0 2px 5px $shadow
+    transition: all 0.3s ease
+    &:hover
+        box-shadow: 0px 17px 15px -8px $shadow-dark
+        transform: translate(0, -5%)
+
+    img
+        margin-top: -4px
+        transition: all 0.5s ease
+        width: 30%
+        height: 100%
+
+.category
+    position: absolute
+    left: .625em
+    bottom: .625em
+
+.footer-wrapper
+  width: 100%
+  height: 180px
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+
+.underline
+    height: 2px
+    background-color: $dark-green
+    width: 250px
+    font: 0/0 a
+    color: transparent
+
+.view
+  opacity: 1 !important
+  transform: translate(0, 0) !important
