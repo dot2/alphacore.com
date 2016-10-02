@@ -1,5 +1,7 @@
 {
   "public": {
-
+    "analyticsSettings": {
+      "Google Analytics" : {"trackingId": "UA-66171724-1"},
+    }
   }
 }

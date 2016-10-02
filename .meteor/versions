@@ -80,6 +80,7 @@ msavin:jetsetter@2.0.0
 npm-bcrypt@0.8.5
 npm-mongo@1.4.43
 observe-sequence@1.0.11
+okgrow:analytics@2.0.0
 ordered-dict@1.0.7
 peerlibrary:assert@0.2.5
 peerlibrary:base-component@0.14.0
