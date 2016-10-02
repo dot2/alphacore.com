@@ -8,8 +8,8 @@
         <g id="Popular">
             <rect id="Rectangle-125" fill="#EC606D" x="0" y="0" width="99" height="24" rx="12"></rect>
             <text id="Development" font-family="OpenSans, Open Sans" font-size="10" font-weight="normal" letter-spacing="1" fill="#FFFFFF">
-                <tspan x="13.2011719" y="16">Developmen</tspan>
-                <tspan x="82.2685547" y="16">t</tspan>
+                <tspan x="13.2011719" y="16">Development</tspan>
+                <!-- <tspan x="82.2685547" y="16">t</tspan> -->
             </text>
         </g>
     </g>
