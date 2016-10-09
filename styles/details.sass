@@ -35,6 +35,7 @@
 
 .details-header
     margin-top: 3.9375em
+    margin-bottom: 2.5em
     img
         width: 100%
     .details-title
@@ -76,11 +77,10 @@
             transform: translate(0, -5%)
             background-color: transparentize($accent, 0.1)
 
-.goal-wrapper
-    margin-top: 2.5em
+.offset-wrapper
     padding: 2em 0
-    margin-left: -999px
-    margin-right: -999px
+    margin-left: -99px
+    margin-right: -99px
     background-color: $off-white
     display: flex
     flex-direction: column
@@ -103,3 +103,17 @@
             font:
                 family: $font-sec
                 size: 1rem
+.white
+    background-color: #fff !important
+
+@media screen and(max-width: 700px)
+    .offset-wrapper
+        margin-left: -12px
+        margin-right: -12px
+    .text
+        padding: 0 .5em
+
+    .project-detail-title
+        margin-top: 2.2em
+        p
+            margin: 0
